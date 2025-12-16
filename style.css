@@ -97,8 +97,9 @@ img {
 }
 
 .hero .logo {
-  width: 26rem;
+  width: 28rem;
   margin-bottom: 4rem;
+  margin-left: -2rem;
 }
 
 .hero h1 {
@@ -142,7 +143,6 @@ img {
   max-width: 500px;
   position: sticky;
   top: 2rem;
-  padding: 8px 0;
 }
 .section-grid .right-col {
   max-width: 500px;
@@ -192,6 +192,7 @@ img {
   position: absolute;
   bottom: 0;
   left: -4rem;
+  margin-top: 2rem;
   width: 100vw;
   border-bottom: 1px solid var(--border-color);
   transform: translateX(calc(-50vw + 50%));
@@ -221,10 +222,11 @@ img {
   font-size: var(--fs-body);
   color: var(--text-color);
   max-width: 450px;
-  padding-left: 3rem;
   padding-top: 1.5rem;
 }
-
+.process-list {
+  padding-bottom: 3rem;
+}
 .process-list > div:not(:last-child) {
   padding-bottom: 4rem;
   margin-bottom: 4rem;
@@ -245,7 +247,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 2rem;
   padding-bottom: 1.6rem;
   padding-top: 1.6rem;
   position: relative;
@@ -291,7 +293,6 @@ img {
   color: var(--background-color);
 }
 
-/* Work Section */
 .work-section {
   padding-top: 7rem;
 }
@@ -329,7 +330,6 @@ img {
 
 .project-title-desc {
   grid-column: 1 / 2;
-  gap: 3rem;
 }
 
 .project-title-desc p {
@@ -341,6 +341,7 @@ img {
   font-size: 16px;
   font-weight: 600;
   color: #454242;
+  margin-left: 1rem;
 }
 
 .project-details {
@@ -371,7 +372,8 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  padding: 6rem 0;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
 }
 
 .contact-section h2 {
